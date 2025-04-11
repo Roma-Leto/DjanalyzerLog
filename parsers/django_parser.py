@@ -27,6 +27,7 @@ class DjangoLogEntry:
     handler: str
     message: str
 
+
 LOG_PATTERN: Pattern = re.compile(
     r"^(?P<timestamp>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3})\s+"
     r"(?P<level>\w+)\s+"
@@ -75,4 +76,3 @@ def parse_django_log_file(line: str) -> Optional[DjangoLogEntry]:
         handler=handler,
         message=data["message"]
     )
-

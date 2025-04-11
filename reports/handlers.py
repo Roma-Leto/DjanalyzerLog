@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Dict, Any, List, DefaultDict
 from collections import defaultdict
 
-from base import BaseReport
+from .base import BaseReport
 from parsers.django_parser import parse_django_log_file
 
 
