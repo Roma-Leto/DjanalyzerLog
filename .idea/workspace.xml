@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Описан базовый абстрактный класс генерации отчётов">
-      <change afterPath="$PROJECT_DIR$/parsers/django_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/handlers.py" afterDir="false" />
+    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Создан класс обработчика отчётов. Изменён базовый класс в части имён обработчиков.">
       <change afterPath="$PROJECT_DIR$/reports/registry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/reports/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/django_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/django_parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744373548191</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Создан класс обработчика отчётов. Изменён базовый класс в части имён обработчиков.">
+      <option name="closed" value="true" />
+      <created>1744377160513</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744377160513</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +150,7 @@
     <MESSAGE value="Разбор аргументов командной строки" />
     <MESSAGE value="Добавлена функция проверки списка файлов на существование. Во входной функции добавлена обработка исключения." />
     <MESSAGE value="Описан базовый абстрактный класс генерации отчётов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Описан базовый абстрактный класс генерации отчётов" />
+    <MESSAGE value="Создан класс обработчика отчётов. Изменён базовый класс в части имён обработчиков." />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан класс обработчика отчётов. Изменён базовый класс в части имён обработчиков." />
   </component>
 </project>
