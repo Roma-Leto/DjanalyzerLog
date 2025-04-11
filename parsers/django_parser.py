@@ -1,0 +1,3 @@
+def parse_django_log_file():
+    """Парсер логов"""
+    ...

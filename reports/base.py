@@ -18,11 +18,19 @@ class BaseReport(ABC):
     Абстрактный базовый класс для всех типов отчётов
     """
 
+    def __init__(self, name: str = None):
+        self._custom_name = name
+
     @property
     @abstractmethod
     def name(self):
-        """Уникальное имя отчёта используемое в CLI"""
-        pass
+        """
+        Уникальное имя отчёта используемое в CLI.
+        Возвращает имя класса по умолчанию или кастомное имя, если оно задано.
+        """
+        if self._custom_name:
+            return self._custom_name
+        return self.__class__.__name__.lower()
 
     @abstractmethod
     def process_file(self, file_path: Path) -> Dict[str, Any]:

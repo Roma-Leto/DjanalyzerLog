@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Добавлена функция проверки списка файлов на существование. Во входной функции добавлена обработка исключения.">
-      <change afterPath="$PROJECT_DIR$/reports/base.py" afterDir="false" />
+    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Описан базовый абстрактный класс генерации отчётов">
+      <change afterPath="$PROJECT_DIR$/parsers/django_parser.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/reports/handlers.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/reports/registry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/reports/base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744366165905</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Описан базовый абстрактный класс генерации отчётов">
+      <option name="closed" value="true" />
+      <created>1744373548191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744373548191</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +143,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="Разбор аргументов командной строки" />
     <MESSAGE value="Добавлена функция проверки списка файлов на существование. Во входной функции добавлена обработка исключения." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлена функция проверки списка файлов на существование. Во входной функции добавлена обработка исключения." />
+    <MESSAGE value="Описан базовый абстрактный класс генерации отчётов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Описан базовый абстрактный класс генерации отчётов" />
   </component>
 </project>
