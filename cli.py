@@ -6,6 +6,8 @@ import argparse
 from pathlib import Path
 from typing import List, Optional
 
+from utils.utilities import LogFileNotFoundError, validate_files
+
 
 def parse_args(args: Optional[List[str]] = None) -> argparse.Namespace:
     """
@@ -36,5 +38,9 @@ def run_cli():
     """
     Входная функция приложения
     """
-    args = parse_args()
-    print(args)
+    try:
+        args = parse_args()
+        validate_files(args.log_files)
+        print(args)
+    except LogFileNotFoundError as e:
+        print(f"[ERROR] {e}")
