@@ -6,6 +6,7 @@ import argparse
 from pathlib import Path
 from typing import List, Optional
 
+from reports.registry import get_report_by_name
 from utils.utilities import LogFileNotFoundError, validate_files
 
 
@@ -41,6 +42,8 @@ def run_cli():
     try:
         args = parse_args()
         validate_files(args.log_files)
-        print(args)
+        report = get_report_by_name(args.report)
+        result = report.generate(args.log_files)
+        print(result)
     except LogFileNotFoundError as e:
         print(f"[ERROR] {e}")

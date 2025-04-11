@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Создан класс обработчика отчётов. Изменён базовый класс в части имён обработчиков.">
+    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Реализован парсер логов">
+      <change afterPath="$PROJECT_DIR$/reports/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/reports/registry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsers/django_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/django_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/reports/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/reports/handlers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744377160513</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Реализован парсер логов">
+      <option name="closed" value="true" />
+      <created>1744385134127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744385134127</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +162,7 @@
     <MESSAGE value="Добавлена функция проверки списка файлов на существование. Во входной функции добавлена обработка исключения." />
     <MESSAGE value="Описан базовый абстрактный класс генерации отчётов" />
     <MESSAGE value="Создан класс обработчика отчётов. Изменён базовый класс в части имён обработчиков." />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан класс обработчика отчётов. Изменён базовый класс в части имён обработчиков." />
+    <MESSAGE value="Реализован парсер логов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализован парсер логов" />
   </component>
 </project>
