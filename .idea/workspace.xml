@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Автоматическая проверка имени отчёта">
-      <change afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Отчёт pytest-cov">
+      <change afterPath="$PROJECT_DIR$/media/bandicam 2025-04-12 16-29-54-155.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +38,18 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/PythonProjects/Workmate/logs",
+    "last_opened_file_path": "E:/PythonProjects/Workmate/media",
     "two.files.diff.last.used.file": "E:/PythonProjects/Workmate/logs/app1.log"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PythonProjects\Workmate\media" />
       <recent name="E:\PythonProjects\Workmate\logs" />
       <recent name="E:\PythonProjects\Workmate" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PythonProjects\Workmate\media" />
       <recent name="E:\PythonProjects\Workmate\logs" />
     </key>
   </component>
@@ -238,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744463620675</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Отчёт pytest-cov">
+      <option name="closed" value="true" />
+      <created>1744464198635</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1744464198635</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +283,7 @@
     <MESSAGE value="Тесты утилит" />
     <MESSAGE value="Тесты CLI" />
     <MESSAGE value="Автоматическая проверка имени отчёта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Автоматическая проверка имени отчёта" />
+    <MESSAGE value="Отчёт pytest-cov" />
+    <option name="LAST_COMMIT_MESSAGE" value="Отчёт pytest-cov" />
   </component>
 </project>
