@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Мелкие исправления">
+    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Исправление парсера, устранение ошибки распределения подсчёта логов уровня ERROR">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,16 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/PythonProjects/Workmate&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/PythonProjects/Workmate/logs",
+    "two.files.diff.last.used.file": "E:/PythonProjects/Workmate/logs/app1.log"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PythonProjects\Workmate\logs" />
       <recent name="E:\PythonProjects\Workmate" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -164,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744388561895</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Исправление парсера, устранение ошибки распределения подсчёта логов уровня ERROR">
+      <option name="closed" value="true" />
+      <created>1744448104642</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744448104642</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +199,7 @@
     <MESSAGE value="Доработка входной функции." />
     <MESSAGE value="Модуль регистрации отчётов" />
     <MESSAGE value="Мелкие исправления" />
-    <option name="LAST_COMMIT_MESSAGE" value="Мелкие исправления" />
+    <MESSAGE value="Исправление парсера, устранение ошибки распределения подсчёта логов уровня ERROR" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправление парсера, устранение ошибки распределения подсчёта логов уровня ERROR" />
   </component>
 </project>
