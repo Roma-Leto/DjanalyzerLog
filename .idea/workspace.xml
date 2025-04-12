@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Тесты CLI" />
+    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Автоматическая проверка имени отчёта">
+      <change afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744463053570</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Автоматическая проверка имени отчёта">
+      <option name="closed" value="true" />
+      <created>1744463620675</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1744463620675</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +270,7 @@
     <MESSAGE value="Тесты реестра отчетов" />
     <MESSAGE value="Тесты утилит" />
     <MESSAGE value="Тесты CLI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Тесты CLI" />
+    <MESSAGE value="Автоматическая проверка имени отчёта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Автоматическая проверка имени отчёта" />
   </component>
 </project>
