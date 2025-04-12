@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Тесты обработчика HandlersReport">
-      <change afterPath="$PROJECT_DIR$/tests/test_registry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Тесты реестра отчетов">
+      <change afterPath="$PROJECT_DIR$/tests/test_cli.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744461713875</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Тесты реестра отчетов">
+      <option name="closed" value="true" />
+      <created>1744462232223</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744462232223</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +243,7 @@
     <MESSAGE value="Описание фикстур для тестов" />
     <MESSAGE value="Тесты функций парсинга файла" />
     <MESSAGE value="Тесты обработчика HandlersReport" />
-    <option name="LAST_COMMIT_MESSAGE" value="Тесты обработчика HandlersReport" />
+    <MESSAGE value="Тесты реестра отчетов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тесты реестра отчетов" />
   </component>
 </project>
