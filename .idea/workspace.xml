@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Описание фикстур для тестов">
-      <change afterPath="$PROJECT_DIR$/tests/test_parser.py" afterDir="false" />
+    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Тесты функций парсинга файла">
+      <change afterPath="$PROJECT_DIR$/tests/test_handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744454271463</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Тесты функций парсинга файла">
+      <option name="closed" value="true" />
+      <created>1744455888123</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744455888123</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +226,7 @@
     <MESSAGE value="Исправление парсера, устранение ошибки распределения подсчёта логов уровня ERROR" />
     <MESSAGE value="Добавлен README.md" />
     <MESSAGE value="Описание фикстур для тестов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Описание фикстур для тестов" />
+    <MESSAGE value="Тесты функций парсинга файла" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тесты функций парсинга файла" />
   </component>
 </project>
