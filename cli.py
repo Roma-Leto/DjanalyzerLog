@@ -6,7 +6,7 @@ import argparse
 from pathlib import Path
 from typing import List, Optional
 
-from reports.registry import get_report_by_name
+from reports.registry import get_report_by_name, get_report_names
 from utils.utilities import LogFileNotFoundError, validate_files
 
 
@@ -28,7 +28,7 @@ def parse_args(args: Optional[List[str]] = None) -> argparse.Namespace:
     parser.add_argument(
         "--report",
         required=True,
-        choices=None,
+        choices=get_report_names(),
         help="Report type to generate"
     )
 
