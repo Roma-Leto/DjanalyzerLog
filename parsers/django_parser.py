@@ -39,6 +39,10 @@ REQUEST_PATTERN: Pattern = re.compile(
     r"(GET|POST|PUT|DELETE|PATCH|HEAD|OPTIONS)\s+(?P<handler>/[^\s]+)"
 )
 
+ERROR_REQUEST_PATTERN: Pattern = re.compile(
+    r"Internal Server Error:\s+(?P<handler>/[^\s]+)"
+)
+
 
 def parse_django_log_file(line: str) -> Optional[DjangoLogEntry]:
     """
@@ -64,10 +68,16 @@ def parse_django_log_file(line: str) -> Optional[DjangoLogEntry]:
 
     # Для запросов извлекаем обработчик
     handler = ""
-    if data["logger"] == "django.request":
+
+    if data["logger"] == "django.request" and data["level"] != "ERROR":
         request_match = REQUEST_PATTERN.search(data["message"])
         if request_match:
             handler = request_match.group("handler")
+
+    elif data["logger"] == "django.request" and data["level"] == "ERROR":
+        error_match = ERROR_REQUEST_PATTERN.search(data["message"])
+        if error_match:
+            handler = error_match.group("handler")
 
     return DjangoLogEntry(
         timestamp=data["timestamp"],

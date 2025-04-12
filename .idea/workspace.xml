@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Реализован парсер логов">
-      <change afterPath="$PROJECT_DIR$/reports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/registry.py" afterDir="false" />
+    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Мелкие исправления">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/reports/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/reports/handlers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,26 +22,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2vZqNuQwfvi2ws7VgXhh32Bt58l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/PythonProjects/Workmate"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/PythonProjects/Workmate&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\PythonProjects\Workmate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PythonProjects\Workmate\logs" />
     </key>
   </component>
   <component name="RunManager">
@@ -142,7 +140,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744385134127</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Доработка входной функции.">
+      <option name="closed" value="true" />
+      <created>1744388331623</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744388331623</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Модуль регистрации отчётов">
+      <option name="closed" value="true" />
+      <created>1744388476282</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744388476282</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Мелкие исправления">
+      <option name="closed" value="true" />
+      <created>1744388561895</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744388561895</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +185,9 @@
     <MESSAGE value="Описан базовый абстрактный класс генерации отчётов" />
     <MESSAGE value="Создан класс обработчика отчётов. Изменён базовый класс в части имён обработчиков." />
     <MESSAGE value="Реализован парсер логов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализован парсер логов" />
+    <MESSAGE value="Доработка входной функции." />
+    <MESSAGE value="Модуль регистрации отчётов" />
+    <MESSAGE value="Мелкие исправления" />
+    <option name="LAST_COMMIT_MESSAGE" value="Мелкие исправления" />
   </component>
 </project>
