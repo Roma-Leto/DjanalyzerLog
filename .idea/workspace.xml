@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Отчёт pytest-cov">
-      <change afterPath="$PROJECT_DIR$/media/bandicam 2025-04-12 16-29-54-155.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="de526993-1299-469d-a7f4-6e4b16fe060e" name="Changes" comment="Правки README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744464198635</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Правки README.md">
+      <option name="closed" value="true" />
+      <created>1744464982951</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1744464982951</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,6 +288,7 @@
     <MESSAGE value="Тесты CLI" />
     <MESSAGE value="Автоматическая проверка имени отчёта" />
     <MESSAGE value="Отчёт pytest-cov" />
-    <option name="LAST_COMMIT_MESSAGE" value="Отчёт pytest-cov" />
+    <MESSAGE value="Правки README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правки README.md" />
   </component>
 </project>
